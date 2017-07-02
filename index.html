@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if IE 7]><html lang="en" class="ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><html lang="en"><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+<head>
+	<meta charset="utf-8">
+	<script src="js/lib/modernizr.js"></script>
+
+	<!-- The title of your site -->
+	<title>Sacramento, CA Video Production + Web Development</title>
+
+	<!-- Meta -->
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="ashrock | digital is a Sacramento-based videography and web design consultancy founded by Ash Roughani in 2011. We focus on delivering immersive, cross-platform digital experiences.">
+	<meta name="keywords" content="sacramento, video, videography, videographer, video production, cinematography, cinematographer, web development, web developer, web design">
+
+	<!-- Essential viewport settings -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Volkhov:400,400italic' rel='stylesheet' type='text/css'>
+
+	<!-- Essential stylesheets -->
+	<link rel="stylesheet" href="css/loader.css">
+	<link rel="stylesheet" href="css/lib/essentials.css">
+	<link rel="stylesheet" href="css/lib/ytplayer.css">
+	<link rel="stylesheet" href="css/lib/font-awesome.min.css">
+	<link rel="stylesheet" href="css/lib/magnific-popup.css">
+	<link rel="stylesheet" href="css/lib/jquery.bxslider.css">
+
+	<!-- Primary stylesheet -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-27272665-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+
+</head>
+
+<body>
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+
+	<!-- Home with controlled background video -->
+	<div id="home" class="home-wrap video">
+		<div class="home-content text-white">
+
+			<!-- Logo and text -->
+			<img src="images/ashrockdigital.svg" alt="ashrock | digital" class="the-logo">
+			<h6 class="bigtext serif italic margin-bottom">videography + web development</h6>
+
+			<!-- Action buttons -->
+			<a onclick="jQuery('#video').playYTP()" class="button outline white play-btn-normal margin-bottom"><i class="fa fa-play"></i> Play Demo Reel</a>
+
+			<a href="#introduction" class="smoothscroll button outline white margin-bottom">Learn More <i class="fa fa-angle-double-down"></i>
+			</a>
+
+		</div>
+	</div>
+
+
+	<!-- Background with YouTube video -->
+	<div class="video-container">
+		<a id="video" class="fullscreen-video" data-property="{videoURL:'https://www.youtube.com/watch?v=59gws6ZHpM0'}">The Video</a>
+	</div>
+
+
+	<!-- Video controls -->
+	<div class="video-controls">
+		<button onclick="jQuery('#video').pauseYTP()"><i class="fa fa-pause"></i></button>
+		<button onclick="jQuery('#video').toggleVolume()"><i class="fa fa-volume-up"></i></button>
+	</div>
+
+	<!-- Background image to display when the video doesn't play anymore -->
+	<div style="background-image: url('images/honolulu_skyline.jpg');" class="fullscreen-img"></div>
+
+
+	<!-- Menu -->
+	<div class="main-menu white-menu fixedmenu">
+		<div class="menu-wrap">
+
+
+			<!-- Your symbolic or typographic logo -->
+			<a href="#home" class="smoothscroll"><img src="images/ashrockdigital_black.svg" alt="ashrock | digital" height="30" class="menu-logo"></a>
+
+
+			<!-- The menu toggle -->
+			<input type="checkbox" id="toggle" />
+			<label for="toggle" class="toggle"></label>
+
+
+			<!-- The menu items -->
+			<ul class="menu">
+				<li><a href="#home" class="smoothscroll">Home</a></li>
+				<li><a href="#about" class="smoothscroll">About</a></li>
+				<li><a href="#portfolio" class="smoothscroll">Portfolio</a></li>
+				<li><a href="#pricing" class="smoothscroll">Pricing</a></li>
+				<li><a href="#contact" class="smoothscroll">Contact</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+
+
+	<!-- Introduction text -->
+	<section id="introduction" class="introduction">
+		<div class="row">
+			<div class="ten columns center">
+
+
+				<!-- The title -->
+				<div class="title">
+					<h1>Welcome to ashrock | digital</h1>
+					<hr>
+				</div>
+
+
+				<!-- Text and a button -->
+				<p class="big thin">I’m bringing cinematography to the masses. High-definition video production should be simple, straightforward, and leave a lasting impression with your audience. Video is the most powerful medium for shaping hearts and minds. Established in 2011, founder Ash Roughani works as a one-man band or can assemble a talented production team for large projects.</p>
+				<p><a href="#portfolio" class="button outline smoothscroll">View my work</a></p>
+
+
+			</div>
+		</div>
+	</section>
+
+
+	<!-- About me -->
+	<section id="about" class="about">
+
+
+		<!-- The title -->
+		<div class="row">
+			<div class="twelve columns title">
+				<h1>About me</h1>
+				<hr>
+			</div>
+		</div>
+
+
+		<!-- About header -->
+		<div style="background-image: url('images/tedx.jpg')" class="header">
+		</div>
+
+
+		<!-- Circle avatar -->
+		<img src="images/ash_roughani.jpg" alt="Ash Roughani" class="about-avatar">
+
+
+		<!-- About introduction -->
+		<div class="row">
+			<div class="eight columns center margin-bottom">
+				<h2 class="text-color">Hello, I'm Ash Roughani.</h2>
+				<blockquote class="big">“At the end of the day people won’t remember what you said or did, they will remember how you made them feel.”<br> –Dr. Maya Angelou</blockquote>
+			</div>
+		</div>
+
+
+		<!-- 3 Columns -->
+		<div class="row">
+
+
+			<!-- Column 1 -->
+			<div class="four columns">
+				<p><i class="fa fa-thumbs-up icon huge"></i></p>
+				<h4>Experience</h4>
+				<p>I’ve been producing videos since I was in high school and professionally for more than three years.</p>
+			</div>
+
+
+			<!-- Column 2 -->
+			<div class="four columns">
+				<p><i class="fa fa-eye icon huge"></i></p>
+				<h4>Philosophy</h4>
+				<p>I'm committed to helping people who are passionate about their work articulate value through cinematic experiences.</p>
+			</div>
+
+
+			<!-- Column 3 -->
+			<div class="four columns">
+				<p><i class="fa fa-film icon huge"></i></p>
+				<h4>Genres</h4>
+				<p>I specialize in documentary-style videos for events, weddings, and for-profit and non-profit organizations alike.</p>
+			</div>
+
+
+		</div>
+	</section>
+
+
+
+
+	<!-- More work -->
+	<section id="portfolio" class="more-work">
+		<div class="row">
+			<div class="twelve columns margin-bottom">
+
+
+				<!-- The title -->
+				<div class="title">
+					<h1>Portfolio</h1>
+					<hr>
+				</div>
+
+
+			</div>
+		</div>
+
+
+		<!-- Thumbnails -->
+		<div class="row margin">
+
+
+			<!-- 1. Take Me Back to TBD -->
+			<div class="four columns medium-six columns small-twelve columns">
+				<div class="portfolio-thumb">
+					<a class="popup-youtube" href="https://www.youtube.com/watch?v=ekyYEWD6eno">
+						<img src="images/tbd.jpg" alt="Take Me Back to TBD">
+						<i class="fa fa-youtube-play"></i>
+						<b>Take Me Back to TBD</b>
+						<em>SacRev</em>
+					</a>
+				</div>
+			</div>
+
+
+			<!-- 2. Open Government -->
+			<div class="four columns medium-six columns small-twelve columns">
+				<div class="portfolio-thumb">
+					<a class="popup-vimeo" href="https://vimeo.com/102955602">
+						<img src="images/cdph.jpg" alt="Open Government">
+						<i class="fa fa-youtube-play"></i>
+						<b>Open Government</b>
+						<em>CA Dept. of Public Health</em>
+					</a>
+				</div>
+			</div>
+
+
+			<!-- 3. Luan + April -->
+			<div class="four columns medium-six columns small-twelve columns">
+				<div class="portfolio-thumb">
+					<a class="popup-vimeo" href="https://vimeo.com/85307373">
+						<img src="images/april_luan.jpg" alt="Luan + April">
+						<i class="fa fa-youtube-play"></i>
+						<b>Luan + April</b>
+						<em>Wedding Video</em>
+					</a>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+
+
+	<!-- I heart web development -->
+	<section class="call-to-action">
+		<div class="coding-img" style="background-image: url('images/coding.jpg');">
+			<div class="header small">
+				<div class="header-center">
+					<div class="centerdiv">
+						<h5 class="bigtext serif italic text-white">I also <i class="fa fa-heart text-color"></i> developing websites like this one.</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- Pricing -->
+	<section id="pricing" class="services">
+		<div class="row">
+			<div class="twelve columns">
+
+
+				<!-- Heading -->
+				<div class="title">
+					<h1>Pricing</h1>
+					<hr>
+				</div>
+
+
+				<!-- Slider controls -->
+				<h2 class="text-color">Browse Video Production and Web Development Packages</h2>
+				<p>
+					<a id="services-prev" href="javascript:void(0)"><i class="fa fa-chevron-left icon arrow-next outline color attached"></i></a>
+					<a id="services-next" href="javascript:void(0)"><i class="fa fa-chevron-right icon arrow-prev outline color attached"></i></a>
+				</p>
+
+
+			</div>
+		</div>
+
+
+		<!-- Packages slider -->
+		<div class="row">
+			<div class="list_carousel">
+				<ul id="services-slider">
+
+
+					<!-- 1. Events -->
+					<li class="service-item">
+						<img src="images/events.jpg" alt="Event Videos">
+						<i class="fa fa-video-camera"></i>
+						<h4>Event Videos</h4>
+						<p> Tell the story of your event through a highlight video and  communicate with the people who couldn't attend your conference or celebration in-person.</p>
+						<h5 class="serif italic">Starting at $299</h5>
+						<ul>
+							<li>1 hour of filming included</li>
+							<li>Basic edit with titles</li>
+							<li>Upload to YouTube or Vimeo</li>
+						</ul>
+						<p><a href="#contact" class="button outline color smoothscroll">Request package</a></p>
+					</li>
+
+
+					<!-- 2. Weddings -->
+					<li class="service-item">
+						<img src="images/weddings.jpg" alt="Wedding Videos">
+						<i class="fa fa-heart"></i>
+						<h4>Wedding Videos</h4>
+						<p> Turn your special day into a motion picture that everyone can experience again.</p>
+						<h5 class="serif italic">Starting at $799</h5>
+						<ul>
+							<li>1 hour of consulting included</li>
+							<li>4 hours of filming included</li>
+							<li>2 cameras</li>
+							<li>1 round of revisions</li>
+						</ul>
+						<p><a href="#contact" class="button outline color smoothscroll">Request package</a></p>
+					</li>
+
+
+					<!-- 3. Promotional -->
+					<li class="service-item">
+						<img src="images/promo.jpg" alt="Promotional Videos">
+						<i class="fa fa-bullhorn"></i>
+						<h4>Promotional Videos</h4>
+						<p> Sell your product or service. Launch a new marketing campaign. Or show the world what you've accomplished.</p>
+						<h5 class="serif italic">Starting at $449</h5>
+						<ul>
+							<li>1 hour of consulting included</li>
+							<li>2 hours of filming included</li>
+							<li>B-roll scenes</li>
+							<li>1 round of revisions</li>
+						</ul>
+						<p><a href="#contact" class="button outline color smoothscroll">Request package</a></p>
+					</li>
+
+
+					<!-- 4. Custom daily -->
+					<li class="service-item">
+						<img src="images/daily.jpg" alt="Custom Day Rates">
+						<i class="fa fa-calendar"></i>
+						<h4>Custom Day Rates</h4>
+						<p> Day rates are designed to make large projects affordable by condensing production in as few days as possible.</p>
+						<h5 class="serif italic">$499 for the first day</h5>
+						<ul>
+							<li>$299 each additional day</li>
+							<li>Multiple locations</li>
+							<li>See custom hourly for editing rates</li>
+						</ul>
+						<p><a href="#contact" class="button outline color smoothscroll">Request package</a></p>
+					</li>
+
+
+					<!-- 5. Custom hourly -->
+					<li class="service-item">
+						<img src="images/hourly.jpg" alt="Custom Hourly Rates">
+						<i class="fa fa-clock-o"></i>
+						<h4>Custom Hourly Rates</h4>
+						<p> Hourly rates are designed for smaller projects with very specific needs.</p>
+						<h5 class="serif italic">Starting at $50</h5>
+						<ul>
+							<li>Filming at $100/hr.</li>
+							<li>Editing at $75/hr.</li>
+							<li>Consulting at $50/hr.</li>
+							<li>2 hour minimum</li>
+						</ul>
+						<p><a href="#contact" class="button outline color smoothscroll">Request package</a></p>
+					</li>
+
+
+					<!-- 6. Raw footage -->
+					<li class="service-item">
+						<img src="images/raw.jpg" alt="Raw Footage Only">
+						<i class="fa fa-file-video-o"></i>
+						<h4>Raw Footage Only</h4>
+						<p> Already have have an editor and just need the raw footage?</p>
+						<h5 class="serif italic">$99 per hour</h5>
+						<ul>
+							<li>2 hour minimum</li>
+							<li>Flat or graded picture style</li>
+							<li>Transfer via Dropbox or Google Drive</li>
+						</ul>
+						<p><a href="#contact" class="button outline color smoothscroll">Request package</a></p>
+					</li>
+
+
+					<!-- 7. WordPress -->
+					<li class="service-item">
+						<img src="images/wordpress.jpg" alt="WordPress">
+						<i class="fa fa-wordpress"></i>
+						<h4>WordPress</h4>
+						<p> Nearly 1 in 5 websites on the Internet are powered by WordPress, a content management system (CMS) that makes publishing web pages and blog posts incredibly simple.</p>
+						<h5 class="serif italic">Starting at $499</h5>
+						<ul>
+							<li>2 hours of consulting</li>
+							<li>10 hours of development</li>
+							<li>Premium theme customization</li>
+							<li>Custom domain set-up</li>
+						</ul>
+						<p><a href="#contact" class="button outline color smoothscroll">Request package</a></p>
+					</li>
+
+
+					<!-- 8. Squarespace -->
+					<li class="service-item">
+						<img src="images/squarespace.jpg" alt="Squarespace">
+						<i class="fa fa-laptop"></i>
+						<h4>Squarespace</h4>
+						<p> For clients who desire a more user-friendly CMS and don't want to worry about maintenance, Squarespace is a good alternative to WordPress.</p>
+						<h5 class="serif italic">Starting at $799</h5>
+						<ul>
+							<li>2 hours of consulting</li>
+							<li>15 hours of development</li>
+							<li>Custom branding</li>
+							<li>Custom domain set-up</li>
+						</ul>
+						<p><a href="#contact" class="button outline color smoothscroll">Request package</a></p>
+					</li>
+
+
+					<!-- 9. Custom website -->
+					<li class="service-item">
+						<img src="images/custom.jpg" alt="Custom Websites">
+						<i class="fa fa-code"></i>
+						<h4>Custom Websites</h4>
+						<p> Want to build your new website from the ground-up? Let's develop a custom package together.</p>
+						<h5 class="serif italic">Starting at $999</h5>
+						<ul>
+							<li>2 hours of consulting</li>
+							<li>20 hours of development</li>
+							<li>Custom everything</li>
+						</ul>
+						<p><a href="#contact" class="button outline color smoothscroll">Request package</a></p>
+					</li>
+
+
+
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- Contact -->
+	<section id="contact" class="contact">
+		<div class="row">
+			<div class="ten columns center">
+
+
+				<!-- The title -->
+				<div class="title">
+					<h1>Contact</h1>
+					<hr>
+				</div>
+
+
+				<!-- Intro text -->
+				<h2 class="text-color">Let's talk.</h2>
+				<p class="big thin">All great projects start with a conversation about your needs. Let me know more about your project and I'll be in touch soon.</p>
+
+
+			</div>
+		</div>
+		<div class="row">
+
+
+			<!-- Contact methods -->
+			<div class="twelve columns margin-bottom">
+				<h2 class="text-color"><i class="fa fa-phone"></i>  (916) 835-9607</h2>
+				<a href="mailto:ash@ashrockdigital.com?subject=My Project" class="button big outline color"><i class="fa fa-envelope"></i> ash@ashrockdigital.com</a><br>
+			</div>
+
+
+		</div>
+	</section>
+
+
+
+
+	<!-- The footer -->
+	<section class="footer-two">
+		<div class="row">
+			<div class="twelve columns">
+
+
+				<!-- Back to top button -->
+				<p><a href="#home" class="smoothscroll"><i class="fa fa-chevron-up icon arrow-top"></i></a></p>
+
+
+				<!-- Social icons -->
+				<p>
+					<a href="https://twitter.com/Roughani" target="_blank"><i class="fa fa-twitter icon outline light"></i></a>
+					<a href="https://www.facebook.com/ashrockdigital" target="_blank"><i class="fa fa-facebook icon outline light"></i></a>
+					<a href="https://vimeo.com/ashrock" target="_blank"><i class="fa fa-vimeo-square icon outline light"></i></a>
+					<a href="https://www.linkedin.com/in/ashroughani/" target="_blank"><i class="fa fa-linkedin icon outline light"></i></a>
+					<a href="https://github.com/roughani" target="_blank"><i class="fa fa-github icon outline light"></i></a>
+				</p>
+
+
+				<!-- Credits -->
+				<p class="text-light">an <a href="http://ashroughani.com/" target="_blank" class="underline">Ash Roughani</a> production<br>
+				&mdash; <a href="https://twitter.com/search?q=%23MadeInSac">#MadeInSac</a> &mdash;</p>
+
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<!-- Javascript -->
+	<script src="js/lib/jquery.min.js"></script>
+	<script src="js/lib/jquery.fittext.js"></script>
+	<script src="js/lib/jquery.magnific-popup.min.js"></script>
+	<script src="js/lib/jquery.bxslider.min.js"></script>
+	<script src="js/lib/jquery.sticky.js"></script>
+	<script src="js/lib/jquery.equal.js"></script>
+
+	<!-- Basic functions -->
+	<script src="js/main.js"></script>
+
+	<!-- Specific functions for this page -->
+	<script src="js/lib/jquery.ytplayer.js"></script>
+	<script src="js/video.js"></script>
+
+	<!-- Scripts for the services slider -->
+	<script src="js/lib/jquery.touchswipe.min.js"></script>
+	<script src="js/lib/jquery.caroufredsel.min.js"></script>
+	<script src="js/services-slider.js"></script>
+
+
+	<!-- Preloader -->
+	<script type="text/javascript">
+		//<![CDATA[
+		$(window).load(function() { // makes sure the whole site is loaded
+			$('#status').fadeOut(); // will first fade out the loading animation
+				$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+			$('body').delay(350).css({'overflow-y':'visible'});
+		})
+		//]]>
+	</script>
+
+
+</body>
+</html>
